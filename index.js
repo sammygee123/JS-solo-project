@@ -40,3 +40,10 @@ function guestPlus3() {
     guestScore += 3
     guestScoreEl.innerText = guestScore
 }
+
+let reset = document.getElementById("new-game")
+
+function newGame(){
+    guestScoreEl.textContent = 0
+    scoreEl.textContent = 0
+}
