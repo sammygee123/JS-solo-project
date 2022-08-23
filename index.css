@@ -1,11 +1,30 @@
 body {
     margin: 0;
+    text-align: center;
 }
+
+#home-score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+#guest-score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
 
 .container {
     display: flex;
     justify-content: space-around;
 }
-.column{
-    
+
+button {
+    background: none;
 }
