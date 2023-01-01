@@ -2,8 +2,6 @@ body {
     margin: 0;
     text-align: center;
     background-color: #1B244A;
-    
-    
 }
 
 #home-score {
@@ -15,6 +13,7 @@ body {
     margin: 21px;
     border-radius: 5px;
     padding: 20px;
+   
 }
 
 #guest-score {
@@ -22,17 +21,20 @@ body {
     background: #0a0001;
     font-size: 90px;
     color: #F94F6D;
-    width: 120px;
+    min-width: 120px;
     margin: 21px;
     border-radius: 5px;
     padding: 20px;
+    
 }
+
     
 
 .container {
     display: flex;
     justify-content: space-around;
-    
+    margin-top: 200px;
+   
 }
 
 button {
@@ -51,7 +53,55 @@ h3 {
     line-height: 36px;
     letter-spacing: 0em;
     text-align: center;
-    color: #EEEEEE;
+    color: white;
     margin: 0%;
 
+}
+@media only screen and (max-device-width: 400px) {
+    #guest-score {
+    font-size: 250;
+    padding: 0%;
+    margin: 0%;
+    width: 300;
+    }
+    #home-score{
+        font-size: 250;
+        padding: 0%;
+        margin: 0%;
+        width: 300;
+        }
+        .headers{
+          margin-bottom: 56px;
+          font-size: 80px; 
+        }
+        #guest-plus-1{
+            font-size: 50px;
+        }
+        #guest-plus-2{
+            font-size: 50px;
+            margin-top: 50px;
+        }
+        #guest-plus-3{
+            font-size: 50px;
+            
+        }
+        #home-plus-1{
+            font-size: 50px;
+            margin-top: 50px;
+        }
+        #home-plus-2{
+            font-size: 50px;
+        }
+        #home-plus-3{
+            font-size: 50px;
+        }
+        #new-game{
+            font-size: 50px;
+            margin-top: 50px;
+        }
+       .container{
+        margin-top: 500px;
+       }
+
+    
 }
