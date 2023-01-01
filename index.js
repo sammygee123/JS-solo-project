@@ -44,6 +44,10 @@ function guestPlus3() {
 let reset = document.getElementById("new-game")
 
 function newGame(){
-    guestScoreEl.textContent = 0
-    scoreEl.textContent = 0
+    guestScore = 0
+    homeScore = 0
+    scoreEl.innerText = homeScore
+    guestScoreEl.innerText = guestScore
+   
+    
 }
