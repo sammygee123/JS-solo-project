@@ -57,7 +57,7 @@ h3 {
     margin: 0%;
 
 }
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-device-width: 500px) {
     #guest-score {
     font-size: 250;
     padding: 0%;
