@@ -1,7 +1,7 @@
 body {
     margin: 0;
     text-align: center;
-    background-color: #1B244A;
+    background-image: linear-gradient(to bottom right,#1b42e6,#51872f);
 }
 
 #home-score {
